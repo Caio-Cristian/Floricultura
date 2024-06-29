@@ -1,0 +1,71 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #e97892;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #ffffff;
+    color: #e97892;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-catalogo .nav-link.active:hover {
+    color: #ffffff;
+}
+
+.navbar-brand {
+    font-family: Pacifico, cursive;
+}
+
+.navbar-toggler {
+    background-color: #eed1d8;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+#sobre-a-floricultura,
+#catalogo {
+    background-color: #eed1d8;
+}
+
+.text-colored {
+    color: #e97892;
+}
+
+.nav-catalogo .nav-link.active,
+#fale-conosco button {
+    background-color: #e97892;
+    color: #fff;
+}
+
+#fale-conosco textarea {
+    resize: none;
+    height: 120px;
+}
+
+.nav-catalogo .nav-link:hover {
+    color: #e97892;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+    
+}
